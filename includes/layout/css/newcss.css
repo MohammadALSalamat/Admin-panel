@@ -1,0 +1,385 @@
+body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+.star {
+    position: absolute;
+    font-size: 24px;
+    right: 30px;
+    color: red;
+    top: 5px;
+}
+
+.selectboxit {
+    width: 100% !important;
+}
+
+
+/* start login form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background: #eaeaea;
+}
+
+.login .btn {
+    background: black;
+}
+
+
+/* end  login form */
+
+
+/* Start bootstrap edit */
+
+.main-navbar {
+    background-color: #D5CC;
+}
+
+.main-navbar .nav-prfile .nav-item>a {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -14px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 200px;
+    padding: 0px;
+    margin: 9px;
+    font-size: 18px;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #e275d4;
+    border: none;
+    border-radius: none;
+}
+
+.dropdown-menu a {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 13px 0 7px 12px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #eaeaea;
+    color: #f300d3;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    border-top: none;
+}
+
+.form-control {
+    position: relative;
+}
+
+
+/* End bootstrap edit */
+
+
+/* Start Members Page */
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+}
+
+.activate {
+    margin-left: 5px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* End Members Page */
+
+
+/* Start the table of database */
+
+.main-table {
+    -webkit-box-shadow: 0 5px 15px rgb(161, 157, 157);
+    -moz-box-shadow: 0 5px 15px rgb(161, 157, 157);
+    box-shadow: 0 5px 15px rgb(161, 157, 157);
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.main-table td {
+    background: #fff;
+    vertical-align: middle !important;
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+
+/* End the table of database */
+
+
+/* Start dashboard*/
+
+.home-stats {
+    text-align: center;
+}
+
+.home-stats .stat {
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat .info {
+    float: right;
+}
+
+.home-stats .stat .info-name {
+    margin: 0px 10px 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
+}
+
+.home-stats .stat i {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.toggle-info {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.toggle-info:hover {
+    color: black
+}
+
+.home-stats .stat a {
+    color: #eaeaea;
+    font-size: 30px;
+}
+
+.home-stats .stat-members {
+    background-color: #3498db;
+}
+
+.home-stats .stat-item {
+    background-color: #c0392b;
+}
+
+.home-stats .stat-pending {
+    background-color: #d35400;
+}
+
+.home-stats .stat-comment {
+    background-color: #8e44ad;
+}
+
+.home-stats span {
+    display: block;
+}
+
+.latest {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.latest-users {
+    margin-bottom: 0;
+}
+
+.latest-users li {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: #eb1ccf6b;
+}
+
+.latest-users .btn-success,
+.latest-users .btn-info {
+    padding: 2px 7px;
+}
+
+.latest-users .btn-info {
+    margin-right: 3px;
+}
+
+.comment-box .member-n,
+.comment-box .member-c {
+    float: left;
+}
+
+.comment-box .member-n {
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.comment-box .member-c {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #efefef;
+    position: relative;
+}
+
+.comment-box .member-c:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: 0px;
+    width: 0;
+    border-style: solid;
+    border-width: 15px;
+    height: 0;
+    border-color: transparent #efefef transparent transparent;
+}
+
+
+/* end dashboard*/
+
+
+/* Start Category page */
+
+.category .panel-body {
+    padding: 0;
+}
+
+.category .panel-heading {
+    color: #959595;
+    font-weight: bold;
+}
+
+.category .main-Cat {
+    margin: 0 0 10px 5px;
+    border-bottom: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.category .option a,
+.category .option span {
+    background: #a50707;
+    padding: 5px 5px;
+    margin-right: 2px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.category .option .active {
+    background-color: black;
+    font-weight: bold;
+}
+
+.category .main-Cat:hover {
+    background-color: #eee;
+}
+
+.category .main-Cat:hover .hidden-btn {
+    right: 10px;
+}
+
+.category .main-Cat .hidden-btn {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -120px;
+}
+
+.category .main-Cat .hidden-btn a {
+    margin-right: 5px;
+}
+
+.category .main-Cat h3 {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.category .main-Cat .full-view p {
+    margin: 10px 0;
+}
+
+.category .main-Cat .vis {
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+.category .main-Cat .comment {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.category .main-Cat .advert {
+    color: orange;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 8px;
+    margin-right: 3px;
+}
+
+.category .add-category {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+/* Start Category page */

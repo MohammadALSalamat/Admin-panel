@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');	
+	
+	
+	hr.a1 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+	hr.a2 {
+	border-top: 3px double #8c8b8b;
+}
+	
+	hr.a3 { 
+  border: 0; 
+  height: 2px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+	
+	
+.border-wrapper {
+   max-width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+   padding: 60px 100px;
+   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	}
+.border-wrapper::before {
+   content: "";
+   text-align: left;
+   position: absolute;
+   top: 30px;
+   left: 30px;
+
+   display: inline-block;
+   border-top: solid 4px rgb(243, 112, 83);
+   border-left: solid 4px rgb(243, 112, 83);
+   height: 50px;
+   width: 50px;
+}
+.border-wrapper::after {
+   content: "";
+   text-align: right;
+   position: absolute;
+   bottom: 30px;
+   right: 30px;
+
+   display: inline-block;
+   border-bottom: solid 4px rgb(243, 112, 83);
+   border-right: solid 4px rgb(243, 112, 83);
+   height: 50px;
+   width: 50px;
+}	
+	
+.fancy-border {
+  border: 25px solid #B88846;
+  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+  width: 900px;
+  height: 600px;
+  background: #0B1319;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Amiri', serif;
+  color: #DAA520;
+  align-items: center;
+}	
